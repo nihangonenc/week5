@@ -22,7 +22,7 @@ public class Main {
         int number = input.nextInt();
 
         try{
-            System.out.println( number + ". indeksteki meyve: " + fruits[number] );
+            print(fruits, number);
 
         }catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Dizi boyutunun dışına çıktınız.");
@@ -31,14 +31,9 @@ public class Main {
         } finally {
             input.close();
         }
-
-
-
-
-
-
-
-
+    }
+    public static void print(String[] arr, int indeks){
+        System.out.println(indeks + ". indeksteki meyve: " + arr[indeks]);
 
     }
 }
