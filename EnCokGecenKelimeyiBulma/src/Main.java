@@ -36,12 +36,5 @@ public class Main {
         System.out.println("Metinde en çok geçen kelime: " + mostWord);
         System.out.println("Bu kelime metinde " + mostWordCount + " kez geçiyor.");
 
-
-
-
-
-
-
-
     }
 }
